@@ -12,6 +12,7 @@ export function NewModal({ isOpen, onRequestClose }: ModalProps) {
   return (
   <Modal
     isOpen={isOpen}
+    ariaHideApp={false}
     onRequestClose={onRequestClose}
     overlayClassName="react-modal-overlay"
     className="react-modal-content"

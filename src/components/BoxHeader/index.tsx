@@ -1,8 +1,8 @@
-import { usePlans } from '../../hooks/useRequest';
 import { Formik } from 'formik'
 
 import { Container } from "./styles";
 import planFaleMais from '../../functions/planFaleMais';
+import { usePlans } from '../../hooks/useRequest';
 
 interface FormikFormProps { 
   origem: string,
@@ -25,7 +25,7 @@ export function BoxHeader() {
     await createPlan({
       origem: values.origem,
       destino: values.destino,
-      tempo: values.tempo,
+      tempo: values.tempo? values.tempo : 0,
       plano: values.plano,
       comPlano: prices.pricePlan as number,
       semPlano: prices.priceFixed as number
@@ -106,7 +106,7 @@ export function BoxHeader() {
 
             <div>
               <label>Plano FaleMais</label>
-              <select className="plan"name="plano" placeholder="Seu plano"
+              <select name="plano" placeholder="Seu plano"
               value={values.plano} onChange={handleChange}
               >
                 {planOptions.map((option) => (

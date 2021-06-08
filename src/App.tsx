@@ -6,9 +6,8 @@ import { NewModal } from './components/NewModal';
 import { GlobalStyle } from "./styles/global";
 import { RequestProvider } from './hooks/useRequest';
 
-Modal.setAppElement('#root');
-
 export function App() {
+  Modal.setAppElement('#root');
   const [modalOpen, setModalOpen] = useState(false);
 
   function handleOpenModal() {
