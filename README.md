@@ -61,4 +61,4 @@ Essas são algumas das tecnologias e bibliotecas usadas nesse projeto:
 
 <p>Linha = Origem | Coluna = Destino </p>
 <br>
-03 - Devido a minha inexperiência com testes acabei não conseguindo completar esse requisito do desafio/teste, apesar de ter pesquisado e lido a documentação, a maior dificuldade, pelo que percebi, está no fato da aplicação utilizar o styled components substituindo os componentes/tags originais, e assim fazendo com que o Jest e React-Testing-Library não consigam enxergar-los, pelo menos nesse período de desenvolvimento, peço desculpas por isso e espero que considere o resto do desafio/teste entregado.
+03 - Devido a minha inexperiência com testes acabei não conseguindo completar esse requisito do desafio/teste, apesar de ter pesquisado e lido a documentação, a maior dificuldade, pelo que percebi, está no fato da aplicação utilizar o styled components substituindo os componentes/tags originais, e assim fazendo com que o Jest e React-Testing-Library não consigam enxergar-los, peço desculpas por isso e espero que considere o resto do desafio/teste entregado.
