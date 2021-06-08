@@ -12,7 +12,7 @@ Essa aplicação/sistema foi feita com <a href="https://pt-br.reactjs.org/">Reac
 </p>
 
 <h1 align="center">
- <img alt="Telzir" src="https://raw.githubusercontent.com/NaySoares/ignews/main/.img/ignews01.jpg" width = "600px" />
+ <img alt="Telzir" src="./.github/faleMais.png" width = "600px" />
  </h1>
 
 ## Começando
