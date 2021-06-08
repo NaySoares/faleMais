@@ -47,7 +47,7 @@ Essas são algumas das tecnologias e bibliotecas usadas nesse projeto:
 ## Notas e Avisos
 
 01 - A tabela de comparação custo plano X custo fixo já vem com um valor setado de exemplo e armazena todos os outros valores que são adicionados através do formulário.<br> 
-02 - A tabela de custo por minuto entre os DDDs, fornecida no documento do desafio/teste, foi alterada para que fornecesse valores para todas as combinações de DDDs, os valores originais dados não foram alterados:
+02 - A tabela de custo por minuto entre os DDDs, fornecida no documento do desafio/teste, foi alterada para que fornecesse valores para todas as combinações de DDDs, os valores originalmente dados não foram alterados:
 
 <strong>Nova Tabela Base</strong>
 
