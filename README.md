@@ -8,7 +8,7 @@ Essa aplicação/sistema foi feita com <a href="https://pt-br.reactjs.org/">Reac
 <p align="center">
   <a href="#começando">Começando</a> &#xa0; | &#xa0; 
   <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#notas-e-avisos">Notas e Avisos</a> &#xa0; | &#xa0;
+  <a href="#notas-e-avisos">Notas e Avisos</a>
 </p>
 
 <h1 align="center">
