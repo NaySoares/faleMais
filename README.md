@@ -2,8 +2,7 @@
 Telzir - FaleMais
 </h1>
 <p align="center">
-Desafio/Teste prestado como processo seletivo para a <a href="https://vizir.com.br/"> Vizir - Software Studio</a><br/>
-Essa aplicação/sistema foi feita com <a href="https://pt-br.reactjs.org/">ReactJS</a> e simula dados de uma API com o <a href="https://miragejs.com/">MirajeJS</a>
+Essa aplicação/sistema foi feita com <a href="https://pt-br.reactjs.org/">ReactJS</a> e simula dados de uma API com o <a href="https://miragejs.com/">MirajeJS</a>, ela calcula o gasto em ligações de celulares, fora e dentro de um plano oferecido por uma operadora fictícia.
 
 <p align="center">
   <a href="#começando">Começando</a> &#xa0; | &#xa0; 
@@ -12,7 +11,7 @@ Essa aplicação/sistema foi feita com <a href="https://pt-br.reactjs.org/">Reac
 </p>
 
 <h1 align="center">
- <img alt="Telzir" src="https://raw.githubusercontent.com/NaySoares/faleMais/main/.github/faleMais.png?token=AEDIWXHO34HUE6AWJW3N4MLBG25SK" width = "600px" />
+ <img alt="Telzir" src="https://github.com/NaySoares/faleMais/blob/main/.github/faleMais.png" width = "600px" />
  </h1>
 
 ## Começando
@@ -44,10 +43,9 @@ Essas são algumas das tecnologias e bibliotecas usadas nesse projeto:
 - Formik
 - Axios
 
-## Notas e Avisos
+## Notas
 
-01 - A tabela de comparação custo plano X custo fixo já vem com um valor setado de exemplo e armazena todos os outros valores que são adicionados através do formulário.<br> 
-02 - A tabela de custo por minuto entre os DDDs, fornecida no documento do desafio/teste, foi alterada para que fornecesse valores para todas as combinações de DDDs, os valores originalmente dados não foram alterados:
+01 - Tabela usada para o verificar o valor das ligações.<br> 
 
 <strong>Nova Tabela Base</strong>
 
@@ -60,5 +58,3 @@ Essas são algumas das tecnologias e bibliotecas usadas nesse projeto:
 18|1,90|2,00|1,20|0,50
 
 <p>Linha = Origem | Coluna = Destino </p>
-<br>
-03 - Devido a minha inexperiência com testes acabei não conseguindo completar esse requisito do desafio/teste, apesar de ter pesquisado e lido a documentação, a maior dificuldade, pelo que percebi, está no fato da aplicação utilizar o styled components substituindo os componentes/tags originais, e assim fazendo com que o Jest e React-Testing-Library não consigam enxergar-los, peço desculpas por isso e espero que considere o resto do desafio/teste entregado.
